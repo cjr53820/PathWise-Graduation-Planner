@@ -1,0 +1,25 @@
+test_advisor_permission (test_pathwise.TestEngine.test_advisor_permission) ... ok
+test_authentication (test_pathwise.TestEngine.test_authentication) ... ok
+test_blocked_priority (test_pathwise.TestEngine.test_blocked_priority) ... ok
+test_capstone_blocked (test_pathwise.TestEngine.test_capstone_blocked) ... ok
+test_delay_alert (test_pathwise.TestEngine.test_delay_alert) ... ok
+test_duplicate_course (test_pathwise.TestEngine.test_duplicate_course) ... ok
+test_elective_gap (test_pathwise.TestEngine.test_elective_gap) ... ok
+test_invalid_code (test_pathwise.TestEngine.test_invalid_code) ... ok
+test_invalid_load (test_pathwise.TestEngine.test_invalid_load) ... ok
+test_invalid_login (test_pathwise.TestEngine.test_invalid_login) ... ok
+test_maya_earned (test_pathwise.TestEngine.test_maya_earned) ... ok
+test_maya_transfer_source (test_pathwise.TestEngine.test_maya_transfer_source) ... ok
+test_ready_course (test_pathwise.TestEngine.test_ready_course) ... ok
+test_repeat_scenarios (test_pathwise.TestEngine.test_repeat_scenarios) ... ok
+test_sample_total (test_pathwise.TestEngine.test_sample_total) ... ok
+test_scenario_isolation (test_pathwise.TestEngine.test_scenario_isolation) ... ok
+test_student_privacy (test_pathwise.TestEngine.test_student_privacy) ... ok
+test_timeline_order (test_pathwise.TestEngine.test_timeline_order) ... ok
+test_transfer_not_double_counted (test_pathwise.TestEngine.test_transfer_not_double_counted) ... ok
+test_unknown_student (test_pathwise.TestEngine.test_unknown_student) ... ok
+
+----------------------------------------------------------------------
+Ran 20 tests in 0.063s
+
+OK
