@@ -1,0 +1,44 @@
+{
+  "purpose": "Fictional in-memory schema, not a production database",
+  "students": {
+    "id": "string",
+    "name": "string",
+    "major": "string",
+    "target": "term",
+    "completed": [
+      "course_code"
+    ],
+    "transfers": [
+      {
+        "course": "code",
+        "source": "institution",
+        "credits": "integer"
+      }
+    ],
+    "advisor": "username"
+  },
+  "catalog": {
+    "course_code": {
+      "title": "string",
+      "credits": "integer",
+      "prereqs": [
+        "course_code"
+      ]
+    }
+  },
+  "notes": {
+    "student_id": [
+      {
+        "advisor": "display name",
+        "text": "recommendation",
+        "date": "UTC timestamp"
+      }
+    ]
+  },
+  "session": {
+    "token": "random HttpOnly cookie",
+    "user": "username",
+    "csrf": "random token",
+    "created": "monotonic time"
+  }
+}
