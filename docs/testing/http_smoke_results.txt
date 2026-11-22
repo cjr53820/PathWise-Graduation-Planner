@@ -1,0 +1,19 @@
+PathWise live HTTP smoke test
+PASS | Anonymous student request rejected | Actual: 401
+PASS | Student demo login | Actual: 200
+PASS | Student sees own dashboard | Actual: 200
+PASS | Student cannot open another student | Actual: 403
+PASS | What If requires CSRF header | Actual: 403
+PASS | Valid planning scenario | Actual: 200
+PASS | Record unchanged after planning | Actual: False
+PASS | Blocked prerequisite rejected | Actual: 400
+PASS | Bad course rejected | Actual: 400
+PASS | Student cannot add advisor note | Actual: 403
+PASS | Logout | Actual: 200
+PASS | Old session invalidated | Actual: 401
+PASS | Advisor demo login | Actual: 200
+PASS | Assigned advisor may add note | Actual: 201
+PASS | Advisor cannot read unassigned student | Actual: 403
+PASS | Advisor notes visible on assigned record | Actual: 1
+
+16/16 passed
