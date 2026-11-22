@@ -1,0 +1,23 @@
+PATHWISE — VIDEO DEMO NARRATION (OPTIONAL)
+CSC 380 • PathWise Development Team
+This script follows the recorded 95-second demo. You can play the video silently and narrate it live.
+
+INTRO / LOGIN
+"This is PathWise, our group's academic planning prototype. It is designed for students and academic advisors. I'm starting with Maya, a fictional student account."
+
+STUDENT DASHBOARD
+"On the dashboard, Maya can see credits completed, remaining requirements, and an estimated graduation term. These are sample records and not actual NSU degree requirements."
+
+REQUIREMENTS AND TIMELINE
+"The requirements page separates completed, ready, blocked, and transferred courses. We also check prerequisites before recommending future classes, so the timeline doesn't place a course before the class it depends on."
+
+WHAT IF? PLANNER / VALIDATION
+"One feature we wanted to focus on is the What If? planner. I can change Maya's course load to four per semester and prioritize CSC 301. The system recalculates a proposed schedule, but her original 18 of 40 earned credits remain unchanged. If I try to take CSC 490 before its prerequisite, the system shows an error instead of treating it as a valid plan."
+
+ROLES AND ADVISOR VIEW
+"A student can view advisor feedback but cannot write advisor notes. When I sign in as Dr. Rivers, the advisor interface lets me leave a recommendation for an assigned student. I can also switch between the students assigned to that advisor. When Maya signs back in, she can see the recommendation."
+
+TESTING / LIMITATIONS / CLOSE
+"We included 20 automated unit tests and 16 HTTP workflow checks, covering the academic calculations, login, permissions, and validation. We also corrected a JavaScript issue found during browser testing. For now, the data is fictional, notes reset when the server restarts, and the app is local rather than connected to a university database. Our goal was to show how the core requirements can work together in a usable prototype."
+
+Note: The recording uses on-screen captions without voiceover; individual team contributions should be checked before submitting.
